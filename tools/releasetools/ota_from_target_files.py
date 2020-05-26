@@ -990,13 +990,13 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   model = target_info.GetBuildProp("ro.product.model")
   build = target_info.GetBuildProp("ro.build.date")
 
-  script.Print("- Nitrogen Project ---------------------------");
+  script.Print("- Nitrogen Tmod ------------------------------");
   script.Print("*  * *** *** **** **** **** *** *  *  **** ***");
   script.Print("** *  *   *  *  * *  * *    *   ** *  *  * *");
   script.Print("* **  *   *  **** *  * * ** *** * **  *  * ***");
   script.Print("*  *  *   *  * *  *  * *  * *   *  *  *  *   *");
   script.Print("*  * ***  *  * *  **** **** *** *  *  **** ***");
-  script.Print("- By xyyx ------------------- Android 10.0.0 -");
+  script.Print("- By thagoo thanks to xyyx -- Android 10.0.0 -");
   script.Print(" Compiled: %s "%(build));
   script.Print(" For: %s   "%(model));
   script.Print("----------------------------------------------");
